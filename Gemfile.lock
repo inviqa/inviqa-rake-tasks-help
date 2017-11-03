@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     rake-tasks-help (1.0.0)
-      rake (>= 10.0, <= 12)
+      rake (>= 10.0, <= 13)
 
 GEM
   remote: https://rubygems.org/

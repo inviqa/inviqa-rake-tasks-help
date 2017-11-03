@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.files = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rake', '>= 10.0', '<= 12'
+  spec.add_dependency 'rake', '>= 10.0', '<= 13'
 
   spec.add_development_dependency 'rspec', '~> 3.6'
   spec.add_development_dependency 'rubocop', '~> 0.51.0'
